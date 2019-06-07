@@ -1,10 +1,10 @@
-#How to Set Up a TF2 Server for Scrims
+# How to Set Up a TF2 Server for Scrims
 
 I'll assume you are in possession of a factory new TF2 server and know how to access your server files.
 
 This guide goes through a tftrue setup.
 
-##Base Installation
+## Base Installation
 
 Download tftrue from [http://tftrue.esport-tools.net/](http://tftrue.esport-tools.net/) and follow the installation directions.
 
@@ -37,7 +37,7 @@ Default is 0 (disabled).
 If you're curious about what other features tftrue offers there are some fun things and I recommend reading the website in more detail.
 
 
-##Config files
+## Config files
 Download the contents of this github.
 
 Put the `esea` folder in your server's `/cfg` folder.  The `alias.cfg` file is an optional feature to have locally on your own computer for convenience.
@@ -68,7 +68,7 @@ I've provided an example `aliases.cfg` you can use if you wish. Just add `exec a
 My maps in the config might be out of date so just double check the list.
 
 
-##MGE
+## MGE
 Download `mgemod.zip` from [https://github.com/Lange/MGEMod/releases](https://github.com/Lange/MGEMod/releases).
 
 Inside you'll see the `/addons` and `/map` folders, just extract the contents of the zip to your server directory where those same folders are and let it merge/overwrite what it will.
