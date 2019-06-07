@@ -19,7 +19,6 @@ Set this to 1 in order to have proper rollouts.
 `tv_delaymapchange_protect`
 
 Set this to 0 if you don't want to wait for stv to catch up and prevent you from changing maps immediately.  This can make your stvs end prematurely while watching them.
-You can also take a look at the esea_base.cfg section on stv settings and make changes as you will.
 
 `tftrue_logs_apikey`
 
@@ -34,7 +33,7 @@ Whether to upload logs at every round end or just when a team wins the map. Defa
 Logs accuracy stats in the logs (shots fired/hit). It can potentially cause performance issues with some servers.
 Default is 0 (disabled).
 
-If you're curious about what other features tftrue offers there are some fun things and I recommend reading the website in more detail.
+If you're curious about what other features tftrue offers, there are some fun things and I recommend reading the website in more detail.
 
 
 ## Config files
@@ -42,7 +41,7 @@ Download the contents of this github.
 
 Put the `esea` folder in your server's `/cfg` folder.  The `alias.cfg` file is an optional feature to have locally on your own computer for convenience.
 
-Download the latest whitelist from whitelist.tf, put this file in your servers `/cfg` folder.
+Download the latest whitelist from whitelist.tf, put this file in your server's `/cfg` folder.
 
 These configs are already set to execute the esea push config with 5 rounds and a 30 minute timelimit.
 
@@ -52,7 +51,7 @@ Open up `esea/esea_base.cfg` and ensure the line:
 
 Matches the filename of your whitelist.
 
-Edit other settings as desired.
+Edit other settings as desired. Consider taking a look in `esea_base.cfg` under the stv settings section and make changes as you will to things like the delay.
 
 Whenever you wish to scrim, simply enter either of the lines,
 
@@ -63,7 +62,9 @@ in your console for 5cp or koth respectively.
 
 You can make aliases to make typing in console easier.
 
-I've provided an example `aliases.cfg` you can use if you wish. Just add `exec aliases` to your `autoexec.cfg` or `custom.cfg` if you're using mastercomfig
+I've provided an example `aliases.cfg` you can use if you wish. Just add `exec aliases` to your `autoexec.cfg` or `custom.cfg` if you're using mastercomfig.
+
+This will allow you to just type `push` or `koth` for the aforementioned config executions or just `process` to quickly change the map to process.
 
 My maps in the config might be out of date so just double check the list.
 
