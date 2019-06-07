@@ -41,7 +41,7 @@ Download the contents of this github.
 
 Put the `esea` folder in your server's `/cfg` folder.  The `alias.cfg` file is an optional feature to have locally on your own computer for convenience.
 
-Download the latest whitelist from whitelist.tf, put this file in your server's `/cfg` folder.
+Download the latest whitelist from [whitelist.tf](http://whitelist.tf/), put this file in your server's `/cfg` folder.
 
 These configs are already set to execute the esea push config with 5 rounds and a 30 minute timelimit.
 
